@@ -190,16 +190,19 @@ Confirm osTicket can be reached by users on LocalHost.
 
 <p>
 Test link for agents and end-users:
+</p>
+<p>
 Agents URL: http://localhost/osTicket/scp/login.php
-End Users URL: http://localhost/osTicket/
+</p>
+<p>End Users URL: http://localhost/osTicket/
 </p>
 <br/>
-
 <p>
 Clean up files that pose a security risk
 </p>
-<br/>
 <p>
 Delete: C:\inetpub\wwwroot\osTicket\setup.
+</p>
+<p>
 Set Permissions to “Read” only: C:\inetpub\wwwroot\osTicket\include\ost-config.php.
 </p>
