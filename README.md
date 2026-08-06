@@ -56,7 +56,10 @@ Now we must install/enable IIS on the Windows computer with CGI including applic
 <br/>
 
 <p>
-
+Excellent. Now that you have enabled IIS, you will access a group of files that will provide you with all of the downloadable materials you need to get osTicket running. I have provided a link here: https://drive.usercontent.google.com/download?id=1b3RBkXTLNGXbibeMuAynkfzdBC1NnqaD&export=download&authuser=0
+</p>
+<p>
+<img width="2866" height="1040" alt="image" src="https://github.com/user-attachments/assets/6c2d9070-edc7-4a1f-9dac-21cfb4a4d2e9" />
 </p>
 <br />
 
