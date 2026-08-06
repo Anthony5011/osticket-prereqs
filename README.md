@@ -173,6 +173,8 @@ From the "osTicket-Installation-Files" folder, install HeidiSQL. Then open Heidi
 <img width="1368" height="966" alt="image" src="https://github.com/user-attachments/assets/5a86232e-9fc6-4c7f-8d64-4cbf567b1a03" />
 <img width="1956" height="1032" alt="image" src="https://github.com/user-attachments/assets/382f8228-ca6f-4b4a-aed5-318493b5f8e4" />
 </p>
+<br/>
+
 <p>
 Continue setting up osTicket in the browser. After submitting info for MySQL Database, username, and password, click "Install Now!"
 </p>
@@ -185,8 +187,19 @@ Continue setting up osTicket in the browser. After submitting info for MySQL Dat
 Confirm osTicket can be reached by users on LocalHost.
 </p>
 <br/>
+
 <p>
 Test link for agents and end-users:
 Agents URL: http://localhost/osTicket/scp/login.php
 End Users URL: http://localhost/osTicket/
+</p>
+<br/>
+
+<p>
+Clean up files that pose a security risk
+</p>
+<br/>
+<p>
+Delete: C:\inetpub\wwwroot\osTicket\setup.
+Set Permissions to “Read” only: C:\inetpub\wwwroot\osTicket\include\ost-config.php.
 </p>
