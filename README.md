@@ -70,9 +70,24 @@ From the "osTicket-Installation-Files" folder, install PHP Manager for IIS.
 <p>
 <img width="1002" height="824" alt="image" src="https://github.com/user-attachments/assets/75149517-5d7a-45a6-9cd4-b204f7e0be02" />
 </p>
+<br/>
+
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+From the same folder, install the Rewrite Module.
+<p>
+<p>
+<img width="990" height="782" alt="image" src="https://github.com/user-attachments/assets/513f35df-eb51-40ec-8c0b-5ae2cfbda6a4" />
 </p>
+<br/>
+
+<p>
+Next up, you need to create the directory C:\PHP. Open File Explorer, type, "C:\" in the search bar, Right-click and create a new folder called, "PHP". Unzip the php-7.3.8-nts-Win32-VC15-x86.zip from the "osTicket-Installation-Files" folder into the PHP folder you just created. To do this, you need to right click the php 7.3.8 file and click "Extract all" > browse to the C\PHP folder > select the folder > click extract.
+</p>
+<p>
+<img width="1224" height="908" alt="image" src="https://github.com/user-attachments/assets/d6c85130-813e-49a6-81cf-ae02e46667f3" />
+</p>
+<br/>
+
 <p>
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 </p>
