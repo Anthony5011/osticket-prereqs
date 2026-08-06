@@ -109,3 +109,24 @@ Open IIS as an Admin then Register PHP from within IIS (PHP Manager > C:\PHP\php
 <p>
 <img width="2126" height="1222" alt="image" src="https://github.com/user-attachments/assets/113458b3-5667-47bd-be4b-d438881268f6" />
 </p>
+<br/>
+
+<p>
+From the “osTicket-Installation-Files” folder, unzip “osTicket-v1.15.8.zip” by extracting all and copy the “upload” folder into “c:\inetpub\wwwroot”. Within “c:\inetpub\wwwroot”, rename “upload” to “osTicket”
+</p>
+<p>
+<img width="2234" height="1122" alt="image" src="https://github.com/user-attachments/assets/10b77aec-e47e-47dc-a420-8c3a8a9b1ac2" />
+<img width="2242" height="1182" alt="image" src="https://github.com/user-attachments/assets/c7e62877-59a7-4488-a78e-e2e0d9b4534b" />
+<img width="2242" height="1182" alt="image" src="https://github.com/user-attachments/assets/1fe2c28b-8306-4b09-9550-aa744e9d381c" />
+</p>
+<br/>
+
+<p>
+To see how the website currently looks, go to sites > Default > osTicket. On the right, click "Browse *:80" 
+</p>
+<p>
+<img width="2124" height="1214" alt="image" src="https://github.com/user-attachments/assets/ed4c2db1-4996-4f56-86b9-1b7f5fd09ebd" />
+<p>Note that some extensions are not enabled
+<img width="2878" height="1620" alt="image" src="https://github.com/user-attachments/assets/5510fb37-a818-41ad-b77e-793f8f1d693b" />
+</p>
+</p>
