@@ -186,8 +186,6 @@ Continue setting up osTicket in the browser. After submitting info for MySQL Dat
 <p>
 Confirm osTicket can be reached by users on LocalHost.
 </p>
-<br/>
-
 <p>
 Test link for agents and end-users:
 </p>
