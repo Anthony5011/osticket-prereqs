@@ -45,11 +45,18 @@ Then open up the Remote Desktop App to log into the virtual machine that you cre
 <img width="1820" height="490" alt="image" src="https://github.com/user-attachments/assets/4f33bcb6-9978-427c-88a5-aa8a9824abfd" />
 <img width="1976" height="1140" alt="image" src="https://github.com/user-attachments/assets/84a77772-44cf-46d7-b7f6-fac7d5e1176b" />
 </p>
-<p>
+<br/>
 
+<p>
+Now we must install/enable IIS on the Windows computer with CGI including application features and IIS Management Console. This is what allows the computer to be turned into a web server. You do this by going to your search bar > type "Control Panel" > click uninstall a program in "Programs" > click "Turn Windows features on or off" > Scroll down to "Internet Information Services (IIS) > click "World Wide Web Services" > click "Application Development Features" > click CGI. Also, make sure that IIS Management Console is enabled. You can do this by clicking "Web Management Tools" instead of WWW Services.
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+<img width="2872" height="1594" alt="image" src="https://github.com/user-attachments/assets/929a17e2-43e4-457e-9482-be125bdea223" />
+</p>
+<br/>
+
+<p>
+
 </p>
 <br />
 
