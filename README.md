@@ -60,9 +60,16 @@ Excellent. Now that you have enabled IIS, you will access a group of files that 
 </p>
 <p>
 <img width="2866" height="1040" alt="image" src="https://github.com/user-attachments/assets/6c2d9070-edc7-4a1f-9dac-21cfb4a4d2e9" />
+<img width="2632" height="1106" alt="image" src="https://github.com/user-attachments/assets/76095668-e1ca-42d7-8355-4a6c40f76faa" />
 </p>
 <br />
 
+<p>
+From the "osTicket-Installation-Files" folder, install PHP Manager for IIS. 
+</p>
+<p>
+<img width="1002" height="824" alt="image" src="https://github.com/user-attachments/assets/75149517-5d7a-45a6-9cd4-b204f7e0be02" />
+</p>
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
