@@ -89,6 +89,23 @@ Next up, you need to create the directory C:\PHP. Open File Explorer, type, "C:\
 <br/>
 
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+From the "osTicket-Installation-Files" folder, install VC Redist.
 </p>
-<br />
+<p>
+<img width="960" height="600" alt="image" src="https://github.com/user-attachments/assets/28f4f827-f5ed-450c-8c02-80ea3590bc57" />
+</p>
+<br/>
+
+<p>
+From the same folder, instal MySQL database. The typical setup for it is -> click Launch Configuration Wizard -> Standard Configuration -> create username and password.
+</p>
+<p>
+<img width="992" height="778" alt="image" src="https://github.com/user-attachments/assets/a30c7514-dc49-4eb5-ae75-6c7f952147e6" />
+</p>
+
+<p>
+Open IIS as an Admin then Register PHP from within IIS (PHP Manager > C:\PHP\php-cgi.exe)
+</p>
+<p>
+<img width="2126" height="1222" alt="image" src="https://github.com/user-attachments/assets/113458b3-5667-47bd-be4b-d438881268f6" />
+</p>
