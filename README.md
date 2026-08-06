@@ -130,3 +130,63 @@ To see how the website currently looks, go to sites > Default > osTicket. On the
 <img width="2878" height="1620" alt="image" src="https://github.com/user-attachments/assets/5510fb37-a818-41ad-b77e-793f8f1d693b" />
 </p>
 </p>
+<br/>
+
+<p>
+To enable some of the extensions needed for functionality of osTicket, go back to IIS > click sites > default > osTicket > double-click PHP Manager > click "Enable or disable an extension". Enable: php_imap.dll, php_intl.dll, php_opcache.dll. Then refresh the osTicket site in your browser and observe the changes.
+</p>
+<p>
+<img width="2126" height="1218" alt="image" src="https://github.com/user-attachments/assets/5197947f-9043-4b12-a862-e789e2f2c88c" />
+<img width="2122" height="1216" alt="image" src="https://github.com/user-attachments/assets/968307ee-a9dc-4df1-bfc6-16c35ce46243" />
+<img width="2860" height="1614" alt="image" src="https://github.com/user-attachments/assets/875ac226-26e6-4c44-bcc1-212ef93d9fd2" />
+</p>
+<br/>
+
+<p>
+Rename ost-config.php. To do this, go to the C drive > click inetpub > click wwwroot > click osTicket > click "include" folder. Change C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php to C:\inetpub\wwwroot\osTicket\include\ost-config.php
+</p>
+<p>
+<img width="2244" height="1182" alt="image" src="https://github.com/user-attachments/assets/37312335-f625-460e-8a1f-b30341396475" />
+</p>
+<br/>
+
+<p>
+Assign permissions to ost-config.php. Right click on the file > click properties > click security > click Advanced > click disable inheritance > click remove all > click add new permissions > select a principal > click everyone > all boxes checked > click apply > click ok
+</p>
+<p>
+<img width="1532" height="1044" alt="image" src="https://github.com/user-attachments/assets/af6ff67f-3bfc-4111-96e0-7e323d674303" />
+</p>
+<br/>
+
+<p>
+Now click continue to proceed with setting up osTicket in the browser. First name the help desk, then give a default email that receives email from customers, and then provide an admin user.
+</p>
+<p>
+<img width="2558" height="1608" alt="image" src="https://github.com/user-attachments/assets/b8045114-8f81-46e4-98d4-48294b352426" />
+</p>
+<br/>
+
+<p>
+From the "osTicket-Installation-Files" folder, install HeidiSQL. Then open Heidi SQL (which is an application that allows us to make a connection to our database) > create a new session with username/password > connect to the session > create a database called "osTicket"
+</p>
+<p>
+<img width="1368" height="966" alt="image" src="https://github.com/user-attachments/assets/5a86232e-9fc6-4c7f-8d64-4cbf567b1a03" />
+<img width="1956" height="1032" alt="image" src="https://github.com/user-attachments/assets/382f8228-ca6f-4b4a-aed5-318493b5f8e4" />
+</p>
+<p>
+Continue setting up osTicket in the browser. After submitting info for MySQL Database, username, and password, click "Install Now!"
+</p>
+<p>
+<img width="1912" height="1550" alt="image" src="https://github.com/user-attachments/assets/c71827cf-2eba-4a5b-bd8c-45a6d8c14c5f" />
+</p>
+<br/>
+
+<p>
+Confirm osTicket can be reached by users on LocalHost.
+</p>
+<br/>
+<p>
+Test link for agents and end-users:
+Agents URL: http://localhost/osTicket/scp/login.php
+End Users URL: http://localhost/osTicket/
+</p>
