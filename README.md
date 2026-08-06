@@ -14,7 +14,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>Operating Systems Used </h2>
 
-- Windows 10</b> (21H2)
+- Windows 11</b> (25H2)
 
 <h2>List of Prerequisites</h2>
 
@@ -32,7 +32,9 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 <p>
 After creating a resource group, you will then create a virtual machine under this resource group. This virtual machine will be an Azure virtual machine Windows 11, 4 vCPUs. The username and password you create is what will be used to remote into your virtual machine with our physical computer.
 </p>
-
+<p>
+<img width="1756" height="1334" alt="image" src="https://github.com/user-attachments/assets/a0027a02-9506-452b-8ca9-1cb7e5b3b462" /> 
+</p>
 
 <p>
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
